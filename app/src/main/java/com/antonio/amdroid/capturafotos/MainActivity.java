@@ -57,8 +57,6 @@ public class MainActivity extends Activity {
 
     class HiloFacil extends AsyncTask<Object, Integer, String> {
 
-        HiloFacil(String... p) {
-        }
 
         @Override
         protected void onPreExecute() {
